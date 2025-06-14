@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "fish_app_v2",
+    "name": "B7arna",
     "slug": "fish_app_v2",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
+    "icon": "./assets/icon2.png",
+    "userInterfaceStyle": "Dark",
     "newArchEnabled": true,
     "splash": {
       "image": "./assets/splash-icon.png",
@@ -23,7 +23,7 @@
       "edgeToEdgeEnabled": true
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/icon2.png"
     }
   }
 }
