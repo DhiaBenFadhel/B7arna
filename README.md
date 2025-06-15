@@ -65,11 +65,11 @@ A mobile app built with **React Native (Expo)** that connects local fishers with
 
 ## 📷 Screenshots
 
->![LoginPage](/fish_app_v2/assets/image.png) 
-> ![FisherScreen](/fish_app_v2/assets/image-1.png)
->![AddCatch](/fish_app_v2/assets/image-2.png)
->![AiFisherHelperScreen](/fish_app_v2/assets/image-3.png)
->![BuyerScreen](/fish_app_v2/assets/image-4.png)
+>![LoginPage](assets/image.png) 
+> ![FisherScreen](assets/image-1.png)
+>![AddCatch](assets/image-2.png)
+>![AiFisherHelperScreen](assets/image-3.png)
+>![BuyerScreen](assets/image-4.png)
 
 ---
 
