@@ -1,5 +1,5 @@
 
-# Fishermen Marketplace 🐟📱
+# B7ARNA📱
 
 A mobile app built with **React Native (Expo)** that connects local fishers with buyers, helping streamline seafood trading and encourage smarter fishing practices with AI assistance.
 
@@ -65,7 +65,11 @@ A mobile app built with **React Native (Expo)** that connects local fishers with
 
 ## 📷 Screenshots
 
-> Add screenshots or screen recordings of the app in action
+>![LoginPage](image.png) 
+> ![FisherScreen](image-1.png)
+>![AddCatch](image-2.png)
+>![AiFisherHelperScreen](image-3.png)
+>![BuyerScreen](image-4.png)
 
 ---
 
