@@ -175,6 +175,23 @@ function BuyerScreen({ navigation }) {
   
 }
 
+function FisherAIHelperScreen() {
+  return (
+    <View style={styles.container}>
+      <View style={styles.card}>
+        <Text style={styles.title}>AI Assistant for Fishers</Text>
+        <Text style={styles.subtitle}>
+          Recommended To fish: Bouri 🐟.{"\n"}
+          Price: 15 TND/1Kg.{"\n"}
+          Best time to catch: Early morning or late afternoon.
+        </Text>
+        <Text style={styles.notice}>Buyers are looking for it!</Text>
+      </View>
+    </View>
+  );
+}
+
+
 export default function App() {
   return (
     <NavigationContainer>
@@ -190,6 +207,11 @@ export default function App() {
           component={BuyerScreen}
           options={{ title: "Buyer Panel" }}
         />
+        <Stack.Screen
+          name="FisherAIHelperScreen"
+          component={FisherAIHelperScreen}
+          options={{ title: "AI Assistant for Fishers" }}
+        />
       </Stack.Navigator>
     </NavigationContainer>
   );
@@ -198,11 +220,42 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#0077be", // Sea blue
-    alignItems: "center",
     justifyContent: "center",
+    alignItems: "center",
+    backgroundColor: "#0077be", // sea blue
     padding: 20,
   },
+
+  card: {
+    borderWidth: 2,
+    borderColor: "white",
+    borderRadius: 10,
+    padding: 20,
+    backgroundColor: "#008ecc", // optional inner background
+    width: "100%",
+    maxWidth: 350,
+  },
+
+  title: {
+    fontSize: 24,
+    color: "white",
+    marginBottom: 10,
+    fontWeight: "bold",
+  },
+
+  subtitle: {
+    fontSize: 16,
+    color: "white",
+    marginBottom: 10,
+  },
+
+  notice: {
+    fontSize: 20,
+    color: "white",
+    fontWeight: "bold",
+    textAlign: "center",
+  },
+
   title: {
     fontSize: 28,
     marginBottom: 20,
