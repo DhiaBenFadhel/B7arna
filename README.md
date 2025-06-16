@@ -1,5 +1,6 @@
 
 # B7ARNA📱
+> ![AppLogo](assets/icon2.png)
 
 A mobile app built with **React Native (Expo)** that connects local fishers with buyers, helping streamline seafood trading and encourage smarter fishing practices with AI assistance.
 
